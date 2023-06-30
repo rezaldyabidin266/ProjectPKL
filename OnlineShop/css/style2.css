@@ -1,0 +1,275 @@
+.carousel-item{
+
+    height: 480px;
+
+}
+
+.carousel-item img{ 
+
+margin-top: -120px;
+height: 600px;
+    
+}
+
+
+.navbar-nav>.nav-item>.nav-link:hover, .navbar-nav>.nav-item>.nav-link:focus{
+    color: #D10024;
+    background-color: transparent;
+  }
+
+.navbar-nav>.nav-item>.nav-link::after{
+
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #D10024;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+
+}
+
+.navbar-nav>.nav-item>.nav-link:hover:after, .navbar-nav>.nav-item>.nav-link:focus:after{
+    width: 100%;
+  }
+
+.card p{
+
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card:hover{
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+    
+}
+
+.modal-body img{
+
+    width: 250px;
+    height: 350px;
+   
+}
+
+.list-group .list-group-item a{
+
+    color: black;
+    text-decoration: none;
+
+}
+
+.list-group .list-group-item a:hover{
+
+    color: #D10024;
+    text-decoration: none;    
+}
+
+
+
+.list-group>.list-group-item>a:hover, .list-group>.list-group-item>a:focus{
+    color: #D10024;
+    background-color: transparent;
+  }
+
+.list-group>.list-group-item>a::after{
+
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #D10024;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+
+}
+
+
+.card-manual{
+
+    width: 16rem;
+
+}
+
+.list-group>.list-group-item>a:hover:after, .list-group>.list-group-item>a:focus:after{
+    width: 100%;
+  }
+
+  .up{
+
+    margin-top: -50px;
+
+  }
+
+
+.form-group .input-group .input-group-prepend .input-group-text{
+
+    background:  #15161D;
+    color: white;
+  
+}
+
+.form-group .form-control{
+
+    border:1px solid gray;
+    width:600px;
+
+}
+
+
+.form-group .form-control:hover{
+
+    border:2px solid #15161D;
+
+}
+
+.form-group label{
+
+    font-weight: bold;
+    color: #15161D;
+}
+
+.form-group input::placeholder{
+
+    color: #15161D;
+    
+}
+
+
+.form-group option{
+
+    color: #15161D;
+    
+}
+
+
+
+.form-group textarea::placeholder{
+
+    color: #15161D;
+    
+}
+
+#contact li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#contact li a:hover{
+
+    text-decoration: underline;
+    color: green;
+
+}
+
+  /* Renposive col-lg*/
+
+@media screen and (max-width:1199px){
+
+    .list-group{
+
+        width: 118%;
+
+    }
+
+    .form-inline .form-control{
+        
+        width: 85px;
+
+    }
+
+    .list-group .list-group-item a{
+
+        color: violet;
+        text-decoration: none;
+    
+    }
+
+  }
+
+  .carousel{
+
+    padding-top: 10px;
+
+  }
+  
+  .card-manual{
+
+    margin:4px;
+
+}
+  /* Renposive col-md*/
+
+
+@media screen and (max-width:991px){
+
+    
+    .list-group{
+
+        width: 100%;
+
+    }
+
+    .form-inline .form-control{
+        
+        width: 200px;
+
+    }
+    .list-group .list-group-item a{
+
+        color: green;
+        text-decoration: none;
+    
+    }
+    
+
+}
+
+
+
+/* Renposive col-sm*/
+
+@media screen and (max-width:757px){
+
+
+    .carousel-item{
+
+        height: 320px;
+    
+    }
+    
+    .carousel-item img{ 
+    
+    margin-top: -100px;
+    height: 500px;
+        
+    }
+    
+
+.list-group .list-group-item a{
+
+    color: blue;
+    text-decoration: none;
+
+}
+
+.card{
+
+    width: 14rem;
+
+}
+
+}
+
+
+
+/* Renposive col-*/
+
+@media screen and (max-width:575px){
+
+
+}

@@ -1,0 +1,358 @@
+@font-face {
+
+    font-family: "font1";
+    src: url('../font/angel_tears/ANGEL___.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font2";
+    src: url('../font/Indonesia\ Merdeka.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font3";
+    src: url('../font/K26ToyBlocks123.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font4";
+    src: url('../font/Cinerama.otf');
+
+}
+
+@font-face{
+
+    font-family: "font5";
+    src: url('../font/Carnevalee\ Freakshow.ttf');
+
+}
+
+html{
+
+   
+
+}
+
+body{
+
+    cursor: pointer;
+
+}
+.container-fluid{
+
+}
+
+.container{
+
+    background-color: #FFF;
+    
+
+}
+
+#component-1{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    font-family: "font5";
+ 
+}
+
+#component-1 h1{
+
+    font-size: 42px;
+
+}
+
+.component-2{
+
+margin-bottom: 40px;
+    
+}
+
+.component-2 img{
+
+    width: 100px;
+    height: 100px;
+
+}
+.component-2 ul{
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.component-2 li a{
+
+    margin:0 60px;
+ 
+}
+
+.component-2 li a:hover{
+
+    color: black;
+    font-weight: 500;
+
+}
+
+#drop{
+
+    border: none;
+    background: #FFF;
+
+
+}
+
+#drop-text:hover{
+
+    background: transparent
+
+}
+
+/* batas header */
+
+.about{
+
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.about h5{
+
+    float: right;
+    margin-right: 60px;
+    font-family: arial;
+}
+
+hr{
+
+    background: dimgray;
+    padding: 1px;
+    width: 50px;
+
+}
+
+.about P{
+
+    font-size: 15px;
+
+}
+
+.about img{
+
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+ 
+    padding-top: 10px;
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+@media screen and (max-width:1199px){
+
+    .component-2 li a{
+
+        margin:0 40px;
+     
+    }
+    
+.about{
+
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.about h5{
+
+    float: right;
+    margin-right: 60px;
+ 
+}
+
+}
+
+
+
+@media screen and (max-width:990px){
+
+
+    .about img{
+
+        width: 150px;
+        height: 150px;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+@media screen and (max-width:765px){
+
+
+ 
+.about{
+
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.about h5{
+
+    float: right;
+    margin-right: 0;
+ 
+}
+
+hr{
+
+    background: dimgray;
+    padding: 1px;
+    width: 50px;
+
+}
+
+.about P{
+
+    font-size: 13px;
+
+}
+
+.about img{
+
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+ 
+    padding-top: 10px;
+}
+
+.penutup p{
+
+    font-size: 14px;
+
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+}
+
+
+
+@media screen and (max-width:575px){
+
+
+    .about{
+
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    .about h5{
+    
+        float: none;
+        margin-right: 0;
+        text-align: center;
+        color: black;
+        margin-bottom: -30px;
+    }
+    
+    hr{
+    
+        background: dimgray;
+        padding: 1px;
+        width: 50px;
+     
+    }
+    
+    .about P{
+    
+        font-size: 13px;
+    
+    }
+    
+    .about img{
+    
+        width: 150px;
+        height: 150px;
+        float: right;
+        margin-right: 37%;
+    }
+    
+    .penutup{
+    
+        width: 100%;
+        height: 50px;
+     
+        padding-top: 10px;
+    }
+    
+    .penutup p{
+    
+        font-size: 14px;
+    
+    }
+    
+    .penutup img{
+    
+        width: 25px;
+        height: 25px;
+       margin-right: 15px;
+    }
+    
+}

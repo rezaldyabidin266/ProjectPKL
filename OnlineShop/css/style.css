@@ -1,0 +1,146 @@
+
+@font-face{
+
+    font-family: "font1";
+    src: url(../font/Langrish\ Script.ttf);
+
+
+    }
+
+
+    @font-face{
+
+font-family: "font2";
+src: url(../font/Shaky\ Hand\ Some\ Comic.otf)
+
+
+}
+
+@font-face{
+
+font-family: "font3";
+
+src: url(../font/Volaroid\ Script.ttf);
+
+
+}
+
+@font-face{
+
+    font-family: "font4";
+    
+    src: url(../font/RINGM___.TTF);
+    
+    
+    }
+
+    
+    @font-face{
+
+        font-family: "font5";
+        
+        src: url(../font/Langrish\ Script.ttf);
+        
+        
+        }
+        
+
+  
+        @font-face{
+
+            font-family: "font6";
+            
+            src: url(../font/Damion-Regular.ttf);
+            
+            
+            }
+
+/*ini style .jumbotron*/
+
+.jumbotron{
+
+
+background-image: url(../img/icon/nathan-van-egmond-CXpK83c6Y1M-unsplash.jpg);
+background-size: cover;
+height: 770px;
+
+text-align: center;
+margin-top: -120px;
+}
+
+.jumbotron .display-4 {
+
+    color: black;
+    margin-top: 200px;
+}
+
+.jumbotron p{
+
+    color: black;
+    font-size: 25px;
+}
+
+.jumbotron hr {
+
+    border-color: #F05F40;
+    width: 70px;
+    border-width: 3px;
+
+
+}
+
+.jumbotron .btn{
+
+
+    background-color: #F05F40;
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px;
+}
+
+/*ini style .slider*/
+
+
+.carousel-item{
+
+    height: 670px;
+    
+}
+
+.carousel-item img{
+
+    margin-top: -120px;
+}    
+
+.carousel-item .display-4 {
+
+    margin-top: -460px;
+    color: black;
+}
+
+.carousel-item p {
+
+    color: black;
+
+}
+.carousel-item  hr {
+
+    border-color: #F05F40;
+    width: 70px;
+    border-width: 3px;
+
+
+}
+
+.carousel-item  .btn{
+
+
+    background-color: #F05F40;
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px;
+}

@@ -1,0 +1,247 @@
+@font-face {
+
+    font-family: "font1";
+    src: url('../font/angel_tears/ANGEL___.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font2";
+    src: url('../font/Indonesia\ Merdeka.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font3";
+    src: url('../font/K26ToyBlocks123.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font4";
+    src: url('../font/Cinerama.otf');
+
+}
+
+@font-face{
+
+    font-family: "font5";
+    src: url('../font/Carnevalee\ Freakshow.ttf');
+
+}
+
+body{
+
+    cursor: pointer;
+
+}
+
+#component-1{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    font-family: "font5";
+ 
+}
+
+#component-1 h1{
+
+    font-size: 42px;
+
+}
+
+
+
+.component-2{
+
+margin-bottom: 30px;
+    
+}
+
+.component-2 img{
+
+    width: 100px;
+    height: 100px;
+
+}
+.component-2 ul{
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.component-2 li a{
+
+    margin:0 60px;
+    
+}
+
+.component-2 li a:hover{
+
+    color: black;
+    font-weight: 500;
+
+}
+
+#drop{
+
+    border: none;
+    background: #FFF;
+}
+
+
+#drop{
+
+    border: none;
+    background: #FFF;
+
+
+}
+
+#drop-text:hover{
+
+    background: transparent
+
+}
+
+
+
+.form-grup-manual input ,.form-grup-manual textarea{
+
+    width: 75%;
+    border: 2px solid gray;
+}
+
+.form-grup-manual input:hover ,.form-grup-manual textarea:hover{
+
+    border:2px solid black;
+
+}
+
+
+
+.form-manual{
+
+ 
+    padding: 15px 25px 15px 25px;
+ 
+}
+
+.form-manual h5{
+
+    text-align: center;
+
+}
+
+#contact{
+
+    text-align: center;
+    font-family: 'font3';
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
+
+
+.g{
+
+  
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.o{
+
+    width: 100%;
+    height: auto  ;
+    padding: 5px 5px 5px 10px;
+
+}
+
+.o img{
+
+    width: 60px;
+    height: 60px;
+
+}
+
+@media screen and (max-width:1199px){
+
+    .component-2 li a{
+
+        margin:0 40px;
+     
+    }
+
+}
+
+
+@media screen and (max-width:991px){
+
+
+
+}
+
+
+
+@media screen and (max-width:765px){
+
+
+    .o{
+
+        width: 100%;
+        height: auto  ;
+        padding: 30px 20px;
+       
+    }
+    
+    .o img{
+    
+        width: 50px;
+        height: 50px;
+    
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width:575px){
+
+
+    
+.g{
+
+  
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.o{
+
+    width: 100%;
+    height: auto  ;
+    padding: 5px 5px 5px 15px;
+   
+}
+
+.o img{
+
+    width: 50px;
+    height: 50px;
+
+}
+    
+}

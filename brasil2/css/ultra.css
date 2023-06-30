@@ -1,0 +1,591 @@
+@font-face {
+
+    font-family: "font1";
+    src: url('../font/angel_tears/ANGEL___.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font2";
+    src: url('../font/Indonesia\ Merdeka.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font3";
+    src: url('../font/K26ToyBlocks123.ttf');
+
+}
+
+@font-face{
+
+    font-family: "font4";
+    src: url('../font/Cinerama.otf');
+
+}
+
+@font-face{
+
+    font-family: "font5";
+    src: url('../font/Carnevalee\ Freakshow.ttf');
+
+}
+
+html{
+
+   
+
+}
+
+body{
+
+    cursor: pointer;
+
+}
+.container-fluid{
+
+}
+
+.container{
+
+    background-color: #FFF;
+    
+
+}
+
+#component-1{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    font-family: "font5";
+ 
+}
+
+#component-1 h1{
+
+    font-size: 42px;
+
+}
+
+.component-2{
+
+margin-bottom: 20px;
+    
+}
+
+.component-2 img{
+
+    width: 100px;
+    height: 100px;
+
+}
+.component-2 ul{
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.component-2 li a{
+
+    margin:0 60px;
+ 
+}
+
+.component-2 li a:hover{
+
+    color: black;
+    font-weight: 500;
+
+}
+
+#drop{
+
+    border: none;
+    background: #FFF;
+
+
+}
+
+#drop-text:hover{
+
+    background: transparent
+
+}
+
+/* batas header */
+
+
+.shop{
+
+    width: 100%;
+ 
+    height: auto;
+    padding-top: 20px;  
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.shop h5{
+
+    text-align: center;
+   
+ 
+}
+
+hr{
+
+    background: dimgray;
+    padding: 1px;
+    width: 80px;
+
+}
+
+.shop P{
+
+    font-size: 15px;
+
+}
+
+.shop1{
+
+    width: 100%;
+   
+    
+}
+
+.row1{
+
+    width: 100%;
+    height: auto;
+
+
+}
+
+.col1{
+
+    width: 100%;
+    height: auto;
+ 
+
+}
+
+
+
+.card-manual img{
+
+    width: 250px;
+    height: 350px;
+
+}
+
+.card-img{
+
+    height: auto;
+overflow: hidden;
+    position: relative;
+ 
+}
+
+.card-manual a{
+
+    text-decoration: none;
+    position: absolute;
+    bottom:-50px;
+    color: black;
+    background: transparent;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    transition-property: all; 
+    font-family: 'font4';   
+    left: -55px;
+}
+
+.card-manual a:hover{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'font4';
+}
+
+.card-manual:hover .card-img a{
+
+    transform: translateY(-60px);
+
+}
+
+
+.card-text{
+
+    margin-top: 15px;
+
+}
+
+.card-text h5{
+
+    font-family: arial;
+    font-weight: 700;
+
+}
+
+.card-text p{
+
+    font-size: 16px;
+    color: gray;
+    font-family: 'font2';
+
+}
+
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+
+@media screen and (max-width:1199px){
+
+    .component-2 li a{
+
+        margin:0 40px;
+     
+    }
+    
+
+}
+
+
+
+@media screen and (max-width:991px){
+
+
+        
+.col1{
+
+    width: 100%;
+    height: auto;
+  
+
+}
+
+
+
+.card-manual img{
+
+    width: 98%;
+    height: 350px;
+    
+}
+
+.card-img{
+
+    height: auto;
+overflow: hidden;
+    position: relative;
+ 
+}
+
+.card-manual a{
+
+    text-decoration: none;
+    position: absolute;
+    bottom: -50px;
+    color: black;
+    background: transparent;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    transition-property: all; 
+    font-family: 'font4';   
+    left: -60px;    
+}
+
+.card-manual a:hover{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'font4';
+}
+
+.card-manual:hover .card-img a{
+
+    transform: translateY(-60px);
+
+}
+
+
+.card-text{
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-text h5{
+
+    font-family: arial;
+    font-weight: 700;
+
+}
+
+.card-text p{
+
+    font-size: 16px;
+    color: gray;
+    font-family: 'font2';
+
+}
+
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+ 
+    padding-top: 10px;
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:765px){
+
+       
+.col1{
+
+    width: 100%;
+    height: auto;
+  
+
+}
+
+
+
+.card-manual img{
+
+    width: 92%;
+    height: 350px;
+    margin-left: 15px;
+}
+
+.card-img{
+
+    height: auto;
+overflow: hidden;
+    position: relative;
+ 
+}
+
+.card-manual a{
+
+    text-decoration: none;
+    position: absolute;
+    bottom: -50px;
+    color: black;
+    background: transparent;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    transition-property: all; 
+    font-family: 'font4';   
+    left: 0;    
+}
+
+.card-manual a:hover{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'font4';
+}
+
+.card-manual:hover .card-img a{
+
+    transform: translateY(-60px);
+
+}
+
+
+.card-text{
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-text h5{
+
+    font-family: arial;
+    font-weight: 700;
+
+}
+
+.card-text p{
+
+    font-size: 16px;
+    color: gray;
+    font-family: 'font2';
+
+}
+
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+ 
+    padding-top: 10px;
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+    
+}
+
+
+
+@media screen and (max-width:575px){
+
+    
+.col1{
+
+    width: 100%;
+    height: auto;
+  
+
+}
+
+
+
+.card-manual img{
+
+    width: 90%;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.card-img{
+
+    height: auto;
+overflow: hidden;
+    position: relative;
+ 
+}
+
+.card-manual a{
+
+    text-decoration: none;
+    position: absolute;
+    bottom: -50px;
+    color: black;
+    background: transparent;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    transition-duration: 0.5s;
+    transition-property: all; 
+    font-family: 'font4';   
+    left: 0;    
+}
+
+.card-manual a:hover{
+
+    text-decoration: none;
+    color: black;
+    font-family: 'font4';
+}
+
+.card-manual:hover .card-img a{
+
+    transform: translateY(-60px);
+
+}
+
+
+.card-text{
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-text h5{
+
+    font-family: arial;
+    font-weight: 700;
+
+}
+
+.card-text p{
+
+    font-size: 16px;
+    color: gray;
+    font-family: 'font2';
+
+}
+
+
+.penutup{
+
+    width: 100%;
+    height: 50px;
+ 
+    padding-top: 10px;
+}
+
+.penutup img{
+
+    width: 25px;
+    height: 25px;
+   margin-right: 15px;
+}
+
+
+    
+}

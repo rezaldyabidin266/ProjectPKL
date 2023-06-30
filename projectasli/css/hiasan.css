@@ -1,0 +1,1225 @@
+*{
+
+	margin:0;
+	padding: 0;
+
+}
+
+header{
+
+	width: 100%;
+	height: 650px;
+	position: relative;
+
+}
+.foto-judul{
+
+	position: relative;
+
+}
+
+.foto-judul img{
+
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	position: fixed;
+
+
+}
+
+.foto-judul .bungkus {
+
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	height: 200px;
+
+}
+
+.foto-judul .bungkus h1{
+
+	font-size: 50px;
+	letter-spacing: 0.1rem;
+	color:white;
+	font-family: monospace;
+	text-shadow: 2px 2px  2px black;
+
+} 
+
+.foto-judul .bungkus h2{
+
+
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px  2px black;
+	margin-top: 10px;
+	margin-left: 130px;
+	margin-bottom: 30px;
+} 
+
+.foto-judul .bungkus a {
+
+	font-size: 18px;
+	padding: 12px 15px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid snow;
+	box-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	margin-left: 190px;
+}
+
+.foto-judul .bungkus a:hover{
+
+
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+}
+
+.ketikan > *{
+
+
+	overflow: hidden;
+	white-space: nowrap;
+	animation: ketikan 2s steps(1);
+	border: 1px solid black;
+
+}
+
+@keyframes ketikan{
+
+	from {width: 0}
+	to{width: 100%}
+
+
+}
+
+
+.navbar{
+
+	position: relative;
+	background-color: white;
+	height: 1000px;
+
+}
+
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color:white;
+  position: absolute;
+  height:100%;
+  overflow: auto;
+  border-right: 2px solid black;
+}
+
+.navbar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size:25 ;
+  font-family: sans-serif;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.navbar li a.active {
+  background-color: transparent;
+  color: darkblue;
+  margin-top:100px;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: transparent;
+  color:darkblue;
+}
+
+.navbar img{
+
+
+	width: 140px;
+	height: 140px;
+}
+
+.navbar li #logo{
+
+	margin-left: 100px;
+	margin-top: 20px;
+	animation-name: logo;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes logo{
+
+	0%{
+
+		transform: scale(0,0);
+
+	}
+
+	12.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	25%{
+
+		transform: scale(0,0);
+
+	}
+
+	37.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	50%{
+
+		transform: scale(0,0);
+
+	}
+
+	62.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	75%{
+
+		transform: scale(0,0);
+
+	}
+
+	87.5%{	
+
+		transform: scale(1,1);
+
+	}
+
+	100%{
+
+		transform: scale(0,0);
+
+	}
+
+
+
+}
+
+
+.navbar .icon {
+
+	display: flex;
+	flex-direction: row;
+	margin-top:70px;
+
+}
+
+
+.jarak{
+
+	margin-left: 105px;
+
+}
+
+.navbar .icon img{
+
+
+	width: 30px;
+	height: 30px;
+
+
+}
+
+.navbar .icon img:not(.jarak){
+
+margin-left: 15px;
+
+
+}
+
+
+.navbar .logo {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 80px;
+		cursor: pointer;
+		
+
+
+}
+
+.logo .link{
+
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+
+}
+
+
+.navbar .logo  img{
+
+	width: 90px;
+	height: 90px;
+	margin-left: 50px;
+
+}
+
+.shop {
+height: 100%;
+
+
+}
+
+
+.shop-content {
+	height: auto;
+	width: 75%;
+	margin-left: 25%;
+
+}
+
+.shop-content h1{
+
+	text-align: center;
+	margin-top: 50px;
+	color: black;
+	text-shadow: 1px 1px 1px gray;
+	font-family: arial;
+	word-spacing: 0.5rem;
+
+}
+
+.galery{
+
+
+
+}
+
+.galery img{
+
+	margin-top: 30px;
+	width: 300px;
+	height: 200px;
+
+}
+
+.galery1{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+.galery2{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+.kr{
+
+		visibility: hidden;
+
+}
+
+.galery3{
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+
+.batas1{
+
+	margin-left: 30px;
+
+}
+
+.batas{
+
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.img {
+  position: relative;
+
+}
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: 5px 8px 5px gray;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%,400%);
+  -ms-transform: translate(-45%, -25%)
+}
+
+.img:hover .image {
+  opacity: 0.3;
+}
+
+.img:hover .middle {
+  opacity: 1;
+  transform: translate(-45%, 10%);
+}
+
+.tulisan {
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  padding: 16px 25px;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.teks-harga{
+
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+
+}
+
+.teks-harga span {
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+.teks a{
+
+
+font-family: sans-serif;
+font-weight: normal;
+text-decoration: none;
+font-size: 20px;
+color: black;
+
+
+}
+
+.teks hr{
+
+	padding: 1px;
+	background-color: blue;
+	width: 180px;
+
+
+}
+
+.teks p{
+
+
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+.teks p::first-letter{
+
+	font-size: 20px;
+	color: green;
+
+}
+
+
+footer{
+
+	width: 100%;
+	height: 50px;
+	background-color: black ;
+	color: white;
+	position: relative;
+
+}
+
+footer .copy{
+
+		position: absolute;
+		left: 100px;
+		top: 16px;
+}
+
+#loading{
+
+	width: 50px;
+	height: 50px;
+	border:5px solid #ccc;
+	border-top-color:#ff6a00;
+	border-radius: 100%;
+
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	animation: putar 5s linear infinite;
+}
+
+@keyframes putar{
+
+
+	from{
+
+		transform: rotate(0deg);
+
+	}
+	to{
+
+		transform: rotate(360deg);
+
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Renposive */
+
+
+@media only screen and (max-width: 768px) 
+{
+
+
+	*{
+
+	margin:0;
+	padding: 0;
+
+}
+
+
+header{
+
+	width: 98%;
+	height: 250px;
+	position: relative;
+
+}
+
+.foto-judul{
+
+	position: relative;
+
+}
+
+.foto-judul img{
+
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	position: fixed;
+
+
+}
+
+
+
+.foto-judul .bungkus {
+
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	height: 250px;
+
+	width: 400px;
+
+}
+
+.foto-judul .bungkus h1{
+
+	font-size: 25px;
+	letter-spacing: 0.1rem;
+	color:white;
+	font-family: monospace;
+	text-shadow: 2px 2px  2px black;
+	margin-top: 100px;
+	margin-left: 70px;
+
+} 
+
+.foto-judul .bungkus h2{
+
+
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-shadow: 2px 2px  2px black;
+	margin-left: 130px;
+
+
+} 
+
+.foto-judul .bungkus a {
+
+	font-size: 12px;
+	padding: 6px 10px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid snow;
+	box-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	margin-left: 160px;
+
+}
+
+.foto-judul .bungkus a:hover{
+
+
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  height: 110px;
+  border: none;
+  border-bottom:  2px solid black;
+
+}
+
+.navbar li {
+	float: left;
+	
+}
+
+.navbar li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: transparent;
+}
+
+.navbar li a.active {
+  background-color: transparent;
+  color: darkblue;
+  margin-top:10px;
+}
+
+
+.navbar img{
+
+
+	width: 60px;
+	height:60px;
+}
+
+.navbar li #logo{
+
+	animation-name:logo;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+@keyframes logo{
+
+	0%{
+
+		transform: scale(0,0);
+
+	}
+
+	12.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	25%{
+
+		transform: scale(0,0);
+
+	}
+
+	37.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	50%{
+
+		transform: scale(0,0);
+
+	}
+
+	62.5%{
+
+		transform: scale(1,1);
+
+	}
+
+	75%{
+
+		transform: scale(0,0);
+
+	}
+
+	87.5%{	
+
+		transform: scale(1,1);
+
+	}
+
+	100%{
+
+		transform: scale(0,0);
+
+	}
+
+
+
+}
+
+
+.navbar .icon {
+
+
+	display: flex;
+	flex-direction: row;
+	margin-top:70px;
+display: none;
+}
+
+
+.jarak{
+
+	margin-left: 105px;
+
+}
+
+.navbar .icon img{
+
+
+	width: 30px;
+	height: 30px;
+
+
+}
+
+.navbar .icon img:not(.jarak){
+
+margin-left: 15px;
+
+
+}
+
+
+.navbar .logo{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 80px;
+		cursor: pointer;
+		display: none;
+
+}
+
+
+.navbar .logo img{
+
+	width: 90px;
+	height: 90px;
+	margin-left: 50px;
+
+}
+
+
+
+.shop {
+height: 3200px;
+	background-color: white;
+
+}
+
+
+.shop-content {
+	height: auto;
+	width: 75%;
+	position: absolute;
+	top: 15%;
+}
+
+.shop-content h1{
+
+	
+	color: black;
+	text-shadow: 1px 1px 1px gray;
+	font-family: arial;
+	word-spacing: 0.1rem;
+	font-size: 28px;
+	margin-left: -80px;
+	margin-top: -20px;
+}
+
+.galery{
+
+
+}
+
+.galery img{
+	
+	width: 240px;
+	height: 160px;
+	margin-top: 140px;
+
+}
+
+.galery1{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.galery2{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+#galery2{
+
+
+	margin-top:150px; 
+
+}
+
+#galery3{
+
+
+	margin-top:150px; 
+
+}
+
+
+.galery3{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.batas1{
+
+	margin-left: 3px;
+	margin-top: -50px;
+
+}
+
+.batas{
+
+	margin-left: 3px;
+
+}
+
+.img {
+  position: relative;
+
+}
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  box-shadow: 5px 8px 5px gray;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%,400%);
+  -ms-transform: translate(-45%, -25%)
+}
+
+.img:hover .image {
+  opacity: 0.3;
+}
+
+.img:hover .middle {
+  opacity: 1;
+  transform: translate(-100%, 300%);
+}
+
+.tulisan {
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  padding: 16px 25px;
+  font-family: monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
+.teks-harga{
+
+	display: flex;
+	align-items:space-around;
+	flex-direction: column;
+	
+	height: 950px;
+	position: absolute;
+	top: 120px;
+	left: 32px;
+
+}
+
+#teks-harga2{
+
+	display: flex;
+	align-items:space-around;
+	flex-direction: column;
+	height: 1000px;
+	position: absolute;
+	top: 1080px;
+	left: 32px;
+
+}
+
+
+#teks-harga3{
+
+	display: flex;
+	align-items:space-around;
+	flex-direction: column;
+	height: 1000px;
+	position: absolute;
+	top: 2080px;
+	left: 32px;
+
+}
+
+#teks1{
+
+	margin-top: 50px;
+
+}
+
+#teks2{
+
+	
+
+}
+
+#teks3{
+
+
+	margin-top: -2px;
+
+}
+
+#teks4{
+
+	margin-top: -30px;
+
+}
+
+#teks5{
+
+	margin-top: -10px;
+
+}
+
+#teks6{
+
+	margin-top: -10px;
+
+
+}
+
+.teks-harga span {
+	margin-top:80px;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+.teks a{
+
+
+font-family: sans-serif;
+font-weight: normal;
+text-decoration: none;
+font-size: 20px;
+color: black;
+
+
+}
+
+.teks hr{
+
+	padding: 1px;
+	background-color: blue;
+	width: 180px;
+
+
+}
+
+.teks p{
+
+
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+.teks p::first-letter{
+
+	font-size: 20px;
+	color: green;
+
+}
+
+
+
+footer{
+
+	width: 100%;
+	height: 50px;
+	background-color: black ;
+	color: white;
+	position: relative;
+
+}
+
+footer .copy{
+
+		position: absolute;
+		left: 100px;
+		top: 16px;
+}
+
+#loading{
+
+	width: 50px;
+	height: 50px;
+	border:5px solid #ccc;
+	border-top-color:#ff6a00;
+	border-radius: 100%;
+
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	animation: putar 5s linear infinite;
+}
+
+@keyframes putar{
+
+
+	from{
+
+		transform: rotate(0deg);
+
+	}
+	to{
+
+		transform: rotate(360deg);
+
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
